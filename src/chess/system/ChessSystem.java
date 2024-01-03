@@ -4,7 +4,7 @@
  */
 package chess.system;
 
-import boardgame.Position;
+import chess.ChessMatch;
 
 /**
  *
@@ -18,8 +18,10 @@ public class ChessSystem {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Position pos = new Position(3,5);
-        System.out.println(pos);
-    }
-    
+      ChessMatch chessMatch = new ChessMatch();
+      
+      UI.printBoard(chessMatch.getPieces());
+       
+       
+    } 
 }
