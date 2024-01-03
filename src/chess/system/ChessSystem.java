@@ -4,6 +4,8 @@
  */
 package chess.system;
 
+import boardgame.Position;
+
 /**
  *
  * @author Rodrigo
@@ -16,7 +18,8 @@ public class ChessSystem {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("Hellou word!");
+        Position pos = new Position(3,5);
+        System.out.println(pos);
     }
     
 }
